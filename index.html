@@ -2,17 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Noah | Academic Portfolio</title>
+  <title>Noah King | Academic Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- For icons -->
 </head>
 <body>
   <div class="container">
-    <!-- Header -->
+
+    <!-- Header / Hero -->
     <header class="hero">
       <img src="headshot.jpg" alt="Noah Headshot" class="headshot">
-      <h1>Noah</h1>
-      <p>Chemistry & Physics Student</p>
+      <div class="hero-text">
+        <h1>Noah King</h1>
+        <p>Chemistry & Physics Student</p>
+        <p class="contact">
+          <a href="https://www.linkedin.com/in/noah-king-a12987248/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+          <a href="mailto:noahwking.sci@gmail.com"><i class="fas fa-envelope"></i> Email</a> |
+          <a href="https://starwarsman981.github.io" target="_blank"><i class="fas fa-globe"></i> Portfolio</a>
+        </p>
+      </div>
     </header>
+
+    <!-- Research Statement -->
+    <section class="research-statement">
+      <p>
+        Undergraduate Chemistry & Physics student exploring functional materials, nanomaterials, and applied optics. Experienced in hydrogel patterning, quantum dot lasers, and computational data analysis. Interested in interdisciplinary research bridging chemistry and physics.
+      </p>
+    </section>
 
     <!-- Documents -->
     <section>
@@ -28,7 +44,26 @@
     <section>
       <h2>Selected Projects</h2>
 
-      <!-- Capstone -->
+      <!-- Hydrogel REU -->
+      <div class="project-card">
+        <h3>Hydrogel Transfer Printing (REU)</h3>
+        <p>
+          10-week NSF-funded research program in the Morin lab. Investigated hydrogel transfer printing for surface-molded systems, focusing on patterning interdigitated arrays. Applied surface patterning techniques to prototype systems and presented results in a 
+          <a href="MorinPoster.jpg" target="_blank">poster</a>.
+        </p>
+      </div>
+
+      <!-- Ag Leader Project -->
+      <div class="project-card">
+        <h3>Ag Leader Steering Algorithm</h3>
+        <p>
+          Developed an algorithm for determining vehicle steering angle from plant location data using computational methods in mathematics and computer science. Analyzed large datasets with Python and Excel. Produced both a 
+          <a href="PaperAg.pdf" target="_blank">paper</a> and a 
+          <a href="PresentationAg.pdf" target="_blank">presentation</a> for the Simpson College Research Symposium.
+        </p>
+      </div>
+
+      <!-- Quantum Dot Dye Laser Capstone -->
       <div class="project-card">
         <h3>Quantum Dot Dye Laser Capstone (in progress)</h3>
         <p>
@@ -36,26 +71,10 @@
         </p>
       </div>
 
-      <!-- REU project -->
-      <div class="project-card">
-        <h3>Hydrogel Transfer Printing (REU)</h3>
-        <p>
-          10-week NSF-funded research program. Investigated hydrogel transfer printing for surface-molded systems, focusing on patterning interdigitated arrays. Applied surface patterning techniques to prototype systems and presented results in a <a href="project2.pdf" target="_blank">poster</a>.
-        </p>
-      </div>
-
-      <!-- Simpson College Ag Leader Project -->
-      <div class="project-card">
-        <h3>Ag Leader Steering Algorithm</h3>
-        <p>
-          Developed an algorithm for determining vehicle steering angle from plant location data using computational methods in math and computer science. Analyzed large datasets with Python and Excel. Produced both a <a href="project1.pdf" target="_blank">paper</a> and <a href="project1.pdf" target="_blank">presentation</a> for the Simpson College Research Symposium.
-        </p>
-      </div>
-      
     </section>
 
     <footer>
-      <p>© 2025 Noah | Hosted with GitHub Pages</p>
+      <p>© 2025 Noah King | Hosted with GitHub Pages</p>
     </footer>
   </div>
 </body>
