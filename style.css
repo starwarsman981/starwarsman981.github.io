@@ -54,9 +54,6 @@ body {
   line-height: 1.4em;
 }
 
-.hero-subtitle strong:nth-child(1) { color: #D32F2F; } /* Chemistry */
-.hero-subtitle strong:nth-child(2) { color: #1976D2; } /* Physics */
-
 .contact a {
   color: #0055aa;
   text-decoration: none;
