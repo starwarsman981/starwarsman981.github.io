@@ -1,28 +1,33 @@
-/* General body and container */
+/* Fonts */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #f9f9f9;
   margin: 0;
   padding: 0;
 }
 
+/* Container */
 .container {
   max-width: 900px;
   margin: auto;
   padding: 2em;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Hero / Header */
+/* Hero/Header */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5em;
+  gap: 2em;
   flex-wrap: wrap;
   margin-bottom: 2em;
+  background: linear-gradient(120deg, #e0f7fa, #ffffff);
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .headshot {
@@ -30,6 +35,7 @@ body {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
+  border: 2px solid #ccc;
 }
 
 .hero-text {
@@ -37,6 +43,7 @@ body {
 }
 
 .hero-text h1 {
+  font-family: 'Roboto Slab', serif;
   margin: 0;
   font-size: 2.2em;
 }
@@ -61,6 +68,9 @@ body {
   margin-bottom: 2em;
   font-style: italic;
   color: #333;
+  background: #e8f5e9;
+  padding: 1em;
+  border-radius: 10px;
 }
 
 /* Sections */
@@ -71,6 +81,7 @@ h2 {
   padding-bottom: 0.2em;
 }
 
+/* Lists */
 ul {
   list-style: none;
   padding-left: 0;
@@ -93,12 +104,14 @@ a:hover {
 .project-card {
   background: #f0f4f8;
   padding: 1em;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 1em;
+  transition: all 0.3s ease;
 }
 
-.project-card p {
-  margin: 0.5em 0 0;
+.project-card:hover {
+  background: #e3f2fd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 /* Footer */
