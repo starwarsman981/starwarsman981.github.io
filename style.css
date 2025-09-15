@@ -147,28 +147,3 @@ a:hover {
   border-radius: 6px;
   margin-bottom: 1em;
   font-size: 0.95em;
-  line-height: 1.4em;
-}
-
-.paper-card a {
-  color: #0055aa;
-}
-
-.paper-card a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  margin-top: 2em;
-  font-size: 0.9em;
-  color: #555;
-  text-align: center;
-}
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  .hero {
-    flex-direction: column;
-  }
-}
