@@ -7,22 +7,53 @@
 </head>
 <body>
   <div class="container">
-    <h1>Noah</h1>
-    <p>Chemistry & Physics Student</p>
+    <!-- Header -->
+    <header class="hero">
+      <img src="headshot.jpg" alt="Noah Headshot" class="headshot">
+      <h1>Noah</h1>
+      <p>Chemistry & Physics Student</p>
+    </header>
 
-    <h2>Documents</h2>
-    <ul>
-      <li><a href="cv.pdf" target="_blank">Curriculum Vitae (CV)</a></li>
-      <li><a href="resume.pdf" target="_blank">Résumé</a></li>
-    </ul>
+    <!-- Documents -->
+    <section>
+      <h2>Documents</h2>
+      <ul>
+        <li><a href="cv.pdf" target="_blank">Curriculum Vitae (CV)</a></li>
+        <li><a href="resume.pdf" target="_blank">Résumé</a></li>
+        <li><a href="transcript.pdf" target="_blank">Transcript</a></li>
+      </ul>
+    </section>
 
-    <h2>Selected Projects</h2>
-    <ul>
-      <li><a href="project1.pdf" target="_blank">Quantum Dot Dye Laser Capstone</a></li>
-      <li><a href="project2.pdf" target="_blank">Hydrogel Transfer Printing (REU Poster)</a></li>
-      <li><a href="project3.pdf" target="_blank">Ag Leader Steering Algorithm (Paper)</a></li>
-    </ul>
-    
+    <!-- Projects -->
+    <section>
+      <h2>Selected Projects</h2>
+
+      <!-- Capstone -->
+      <div class="project-card">
+        <h3>Quantum Dot Dye Laser Capstone (in progress)</h3>
+        <p>
+          Joint chemistry–physics senior capstone under faculty supervision. Designing and constructing a quantum dot dye laser using CdSe nanocrystals as the lasing medium. Exploring syringe-pump controlled synthesis to narrow emission bandwidths and reduce power selectivity across wavelengths. Synthesizing and characterizing quantum dots and investigating optical performance in a laser cavity.
+        </p>
+      </div>
+
+      <!-- REU project -->
+      <div class="project-card">
+        <h3>Hydrogel Transfer Printing (REU)</h3>
+        <p>
+          10-week NSF-funded research program. Investigated hydrogel transfer printing for surface-molded systems, focusing on patterning interdigitated arrays. Applied surface patterning techniques to prototype systems and presented results in a <a href="project2.pdf" target="_blank">poster</a>.
+        </p>
+      </div>
+
+      <!-- Simpson College Ag Leader Project -->
+      <div class="project-card">
+        <h3>Ag Leader Steering Algorithm</h3>
+        <p>
+          Developed an algorithm for determining vehicle steering angle from plant location data using computational methods in math and computer science. Analyzed large datasets with Python and Excel. Produced both a <a href="project1.pdf" target="_blank">paper</a> and <a href="project1.pdf" target="_blank">presentation</a> for the Simpson College Research Symposium.
+        </p>
+      </div>
+      
+    </section>
+
     <footer>
       <p>© 2025 Noah | Hosted with GitHub Pages</p>
     </footer>
