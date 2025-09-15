@@ -48,9 +48,14 @@ body {
   font-size: 2.2em;
 }
 
-.hero-text p {
-  margin: 0.3em 0;
+.hero-subtitle {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  line-height: 1.4em;
 }
+
+.hero-subtitle strong:nth-child(1) { color: #D32F2F; } /* Chemistry */
+.hero-subtitle strong:nth-child(2) { color: #1976D2; } /* Physics */
 
 .contact a {
   color: #0055aa;
@@ -65,12 +70,32 @@ body {
 /* Research Statement */
 .research-statement {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   font-style: italic;
   color: #333;
   background: #e8f5e9;
   padding: 1em;
   border-radius: 10px;
+}
+
+/* Newton Quote */
+.quote {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin: 1.5em 0 2em;
+}
+
+.quote blockquote {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.quote cite {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #333;
 }
 
 /* Sections */
@@ -103,15 +128,37 @@ a:hover {
 /* Project Cards */
 .project-card {
   background: #f0f4f8;
-  padding: 1em;
+  padding: 1.2em;
   border-radius: 10px;
   margin-bottom: 1em;
+  border-left: 5px solid #0055aa;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
 }
 
 .project-card:hover {
   background: #e3f2fd;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+/* Paper Cards (smaller) */
+.paper-card {
+  background: #f8f9fa;
+  padding: 0.8em 1em;
+  border-left: 4px solid #0055aa;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  font-size: 0.95em;
+  line-height: 1.4em;
+}
+
+.paper-card a {
+  color: #0055aa;
+}
+
+.paper-card a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
